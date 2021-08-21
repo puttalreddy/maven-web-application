@@ -13,10 +13,12 @@ stage('Build')
     
 sh "${mavenHome}/bin/mvn clean package"
 }
+/*
 sh "${mavenHome}/bin/mvn sonar:sonar"
 
 }
 stage('UploadArti Factinto Nexus')
 {
     sh "${mavenHome}/bin/mvn deploy"
+    */
 }
